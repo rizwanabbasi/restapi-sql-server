@@ -22,3 +22,8 @@ The following guideline is to set up the environment on localhost using any tool
   c. Also check if 'sqlsrv support' is Enabled under 'sqlsrv' heading.
   
 4. Congratulations, you have successfully set up PHP with MS SQL Server. 
+
+5. Possible API Calls are
+	a. To fetch all users using GET request http://localhost/restapi/users
+	b. To fetch a specific user based upon EmployeeID using GET request http://localhost/restapi/user/1
+	c. API can be tested with Postman.
